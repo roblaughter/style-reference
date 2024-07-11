@@ -3,7 +3,7 @@ This repo contains 100+ *prompt only* photographic style references for SDXL mod
 
 Styles are fully "public domain" without reference to specific artists, and were generated from reference images using ChatGPT vision to extract the stylistic elements of each, then fine-tuned for the desired result. 
 
-**Click the image thumbnails to embiggen.**
+**Click the image thumbnails to embiggen.** My favorites are at the top of the list marked with an asterisk. 
 
 ## How to use these styles
 These styles will work by simply adding them to a prompt, but many are too long for CLIP's 77-token limit. I recommend using conditioning concatenation. See [example workflow](https://github.com/roblaughter/style-reference/blob/master/sample_workflow.json) for details. 
