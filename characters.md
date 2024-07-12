@@ -1,3 +1,29 @@
+# SDXL Character Reference
+This file contains 50+ *prompt only* photographic character references for SDXL models, optimized for [RobMix Zenith](https://civitai.com/models/334323). I created these as a study in how my model represented certain concepts. I haven't tested these with other checkpoints. 
+
+Styles are fully "public domain" without reference to specific artists, and were generated from reference images using ChatGPT vision to create a name, primary physical characteristics, and setting for each subject, then fine-tuned for the desired result. 
+
+**Click the image thumbnails to embiggen.**
+
+## How to use these character prompts
+These images still have a heavy dose of the overly attractive "Stable Diffusion face," and as such, they're meant to be more of a starting point than a final destination. 
+
+If you want to make them more realistic, just be _really mean_ and say all sorts of ugly things in the prompt. (No matter how far you go, it often won't be enough.)
+
+```(Visible skin blemishes:1.4), (uneven complexion:1.3), (slightly asymmetrical features:1.4), (visible wrinkles and fine lines:1.4), (natural hair frizz:1.4), (rough skin texture:1.4), (crooked teeth), (chapped lips:1.2), (short and stocky build), (stooped posture), (blotchy skin:1.4), (sagging skin), (thinning hair:1.4), (dull, lifeless eyes:1.4)```
+
+Alternatively, add some descriptions of low quality photos. 
+
+```(Awkward angle:1.4), (red eye:1.4), (harsh lighting:1.4), (overexposed:1.3), (underexposed:1.3), (unflattering shadows:1.2), (motion blur:1.2), (fish-eye lens:1.4), (distorted perspective:1.3), (unbalanced composition), (camera flash:1.2), (grainy texture), (low resolution), (cluttered background), (poorly framed:1.2), (flat lighting), (double exposure), (over-saturated colors), (out of focus:1.2), (backlighting without fill), (uneven horizon), (color casts), (incorrect white balance), (heavy vignetting), (lens flare:1.2), (lens distortion:1.2), (awkward posing), (tense expression:1.3), (closed eyes), (unflattering crop:1.2), (excessive contrast), (harsh midday sun), (shadowed face), (exaggerated highlights:1.2)```
+
+I recommend using conditioning concatenation to separate subject from style/setting. See [example workflow](https://github.com/roblaughter/style-reference/blob/master/sample_workflow.json) for details. 
+
+Some styles may be a bit heavy handed, and you may need to adjust weights in your subject or style to produce the desired image. Use these as a starting point for experimentation. 
+
+## Browse the prompts
+
+_[Download a sortable CSV of this data](https://docs.google.com/spreadsheets/d/1vNkE6c6j9S1RjToY1GroL6jIbWjFoDifHMr-wY1MxMg/edit?usp=sharing)_
+
 | **Name** | Subject Prompt | Style Prompt | Sex | Age | Race | Image |
 |----------|----------------|--------------|-----|-----|------|-------|
 | **Sophia** | Sophia, a 25-year-old Caucasian woman with (medium length straight dark chestnut brown hair:1.2), (fair skin tone:1.2), (deep brown almond-shaped eyes:1.2), oval facial structure, straight nose, full lips, arched eyebrows, medium thickness, radiant smile, pronounced cheekbones, smooth complexion | outdoor field, wildflowers, soft natural light, bright day, diffused sunlight, gentle breeze, lush greenery, blurred background, serene, tranquil, vibrant colors, shallow depth of field, dreamy, ethereal atmosphere | F | 25 | Caucasian | ![Sophia](https://github.com/roblaughter/style-reference/raw/master/assets/Sophia_Grid.png) |
