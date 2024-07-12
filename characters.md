@@ -6,7 +6,7 @@ Styles are fully "public domain" without reference to specific artists, and were
 **Click the image thumbnails to embiggen.**
 
 ## How to use these character prompts
-These images still have a heavy dose of the overly attractive "Stable Diffusion face," and as such, they're meant to be more of a starting point than a final destination. 
+These images still have a heavy dose of the overly attractive "Stable Diffusion face," and are also a bit stereotypical. That's by design, as they're meant to be more of a starting point than a final destination.
 
 If you want to make them more realistic, just be _really mean_ and say all sorts of ugly things in the prompt. (No matter how far you go, it often won't be enough.)
 
